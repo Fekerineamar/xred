@@ -7,6 +7,6 @@ paths:
   /:
     get:
       responses:
-        '200"><p>':
+        200"><p>:
           description: Echo GET
 
