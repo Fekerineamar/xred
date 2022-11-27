@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Echo
-  description: 'test&quot;&gt;xss&lt;div&gt;test&lt;/div&gt;'
+  description: 'test&quot;&gt;xss&lt;div&gt;test&lt;/div&gt;%22%3Exss%3Cdiv%3Etest%3C%2Fdiv%3E<""-}'
 paths:
   /:
     get:
